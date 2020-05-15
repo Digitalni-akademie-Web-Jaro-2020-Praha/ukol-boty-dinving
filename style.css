@@ -1,9 +1,15 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 body {
-    text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
 }
 
 /*
@@ -21,3 +27,43 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.slogan {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.popis {
+  font-family: Rubik;
+}
+
+.nazev {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cena {
+  font-family: Rubik;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.produkt {
+  font-family: Rubik;
+}
+
+h2 {
+  font-family: Rubik;
+}
+
+.velikosti {
+  font-family: Rubik;
+}
+.cenovka {
+  font-family: Rubik;
+}
+
+.zaruka {
+  font-family: Rubik;
+}
