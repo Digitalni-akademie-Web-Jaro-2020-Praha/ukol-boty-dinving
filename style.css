@@ -66,17 +66,22 @@ body {
   padding-left: 30px;
   padding-top: 15px;
 }
-
+.bota {
+  float: right;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 23%;
+  left: 25%;
+}
+.cenovka {
+  padding-top: 220px;
+}
 .cena {
   text-align: end;
   font-size: 28px;
   font-weight: 500;
   color: aliceblue;
   overflow: auto;
-}
-
-.cenovka {
-  padding-top: 220px;
 }
 
 .zaruka {
@@ -86,13 +91,6 @@ body {
   text-align: end;
 }
 
-.bota {
-  float: right;
-  padding-bottom: 10px;
-  position: absolute;
-  top: 23%;
-  left: 25%;
-}
 /* ----- prava cast ----- */
 .detaily {
   display: flex;
@@ -141,7 +139,6 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  text-align: middle;
   list-style: none;
 }
 
@@ -156,10 +153,9 @@ h2 {
 }
 .tlacitko {
   border-color: #f15f42;
-  font-family: rubik;
   font-size: 14px;
   font-weight: 400;
-  color: aliceblue;
+  color: white;
   background-color: #f15f42;
   padding: 13px 30px 13px 30px;
   border-radius: 7%;
