@@ -27,51 +27,54 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+/* ----- cela stranka----- */
+body {
+  background-color: #f5f5f5;
+}
+
+/* ----- karta produktu celek ----- */
+.zbozi {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 670px;
+  height: 440px;
+  margin-left: 30%;
+  margin-top: 30px;
+  margin-right: 30%;
+}
+
+/* -----leva cast barevna----- */
 .vizual {
   background-image: linear-gradient(#06d7c1, #50cc49);
-  border-radius: 10% 0 0 10%;
+  border-radius: 3% 0 0 3%;
   padding-right: 30px;
+  width: 335px;
+}
+.logo {
+  padding-left: 30px;
+  padding-top: 30px;
+  width: 85px;
 }
 .slogan {
   font-family: Rubik;
   color: aliceblue;
   font-size: 16px;
-  font-weight: 400;
-  padding-left: 30px;
-}
-
-.logo {
+  font-weight: 500;
   padding-left: 30px;
   padding-top: 30px;
 }
-.popis {
-  font-family: Rubik;
-}
 
-.nazev {
-  font-family: Rubik;
-  font-size: 20px;
-  font-weight: 500;
-}
 .cena {
   font-family: Rubik;
   text-align: end;
   font-size: 28px;
   font-weight: 500;
   color: aliceblue;
+  overflow: auto;
 }
 
-.produkt {
-  font-family: Rubik;
-}
-
-h2 {
-  font-family: Rubik;
-}
-
-.velikosti {
-  font-family: Rubik;
-}
 .cenovka {
   font-family: Rubik;
 }
@@ -80,16 +83,99 @@ h2 {
   font-family: Rubik;
   color: aliceblue;
   text-align: end;
-  padding-bottom: 30px;
 }
 
-.zbozi {
-  display: flex;
-  flex-direction: row;
+img {
+  background: "images/nike.svg";
+  overflow: none;
+  float: right;
   padding-left: 30px;
 }
+/* ----- prava cast ----- */
+.detaily {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 0 3% 3% 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 335px;
+  background-color: white;
+}
+.nazev {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
 
-.img {
-  overflow: visible;
-  padding-left: -30px !important;
+.produkt {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  color: #959595;
+  margin-top: -15px;
+  padding-top: 15px;
+}
+.popis {
+  font-family: Rubik;
+  overflow: auto;
+  font-size: 14px;
+  font-weight: 400;
+}
+.cara {
+  border-bottom: 1px solid #06d7c1;
+}
+
+h2 {
+  font-family: Rubik;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+.velikost {
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+.velikosti {
+  font-family: Rubik;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: middle;
+  list-style: none;
+}
+
+.Velikost ul:first-child {
+  margin-left: -50px;
+  margin-top: -5px;
+  align-items: center;
+}
+.akce {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.tlacitko {
+  border-color: #f15f42;
+  font-family: rubik;
+  font-size: 14px;
+  font-weight: 400;
+  color: aliceblue;
+  background-color: #f15f42;
+  padding: 13px 30px 13px 30px;
+  border-radius: 7%;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 60px;
+  box-shadow: lightgrey 1px 2px;
+}
+
+.vybrana {
+  border: 1px solid #f15f42;
+  border-radius: 50%;
+  color: #f15f42;
+  padding: 5px;
+  align-self: center;
 }
