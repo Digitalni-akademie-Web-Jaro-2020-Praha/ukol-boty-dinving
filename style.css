@@ -70,7 +70,6 @@ body {
   float: right;
   padding-bottom: 10px;
   position: absolute;
-  top: 23%;
   left: 25%;
 }
 .cenovka {
@@ -80,14 +79,14 @@ body {
   text-align: end;
   font-size: 28px;
   font-weight: 500;
-  color: aliceblue;
+  color: white;
   overflow: auto;
 }
 
 .zaruka {
   font-size: 14px;
   font-weight: 400;
-  color: aliceblue;
+  color: white;
   text-align: end;
 }
 
@@ -158,11 +157,11 @@ h2 {
   color: white;
   background-color: #f15f42;
   padding: 13px 30px 13px 30px;
-  border-radius: 7%;
+  border-radius: 7px;
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 60px;
-  box-shadow: lightgrey 1px 2px;
+  box-shadow: lightgrey 1px 2px 2.5px;
 }
 
 .vybrana {
